@@ -1,0 +1,11 @@
+# Ignore the virtual environment folder for the backend
+backend/venv/
+backend/.venv/
+
+# Ignore the virtual environment folder for the frontend
+**/__pycache__/
+**/*.pyc
+
+# Ignore the secret configuration files 
+**/CNAME
+**/.env
