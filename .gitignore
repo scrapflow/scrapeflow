@@ -9,3 +9,5 @@ backend/.venv/
 # Ignore the secret configuration files 
 **/CNAME
 **/.env
+
+.vscode/
