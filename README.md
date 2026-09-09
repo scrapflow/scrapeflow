@@ -36,3 +36,7 @@ Install the dep packages
 To RUN the BE application you run:
 
 `uvicorn app.main:app --reload`
+
+#RUN using Docker
+
+...
