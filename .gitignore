@@ -10,4 +10,7 @@ backend/.venv/
 **/CNAME
 **/.env
 
+# Ignore any environment files that start with .env
+.env*
+
 .vscode/
