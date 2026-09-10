@@ -40,5 +40,3 @@ To RUN the BE application you run:
 #RUN using Docker
 
 ...
-
-# More info..
