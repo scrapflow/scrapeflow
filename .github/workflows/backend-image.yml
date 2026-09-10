@@ -30,6 +30,6 @@ jobs:
           file: ./backend/Dockerfile # Calea exactă către Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/scapeflow-backend:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/scapeflow-backend:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/scapflow-backend:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/scapflow-backend:${{ github.sha }}
 
