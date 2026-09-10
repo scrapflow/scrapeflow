@@ -26,8 +26,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: ./scapeflow/backend
-          file: ./scapeflow/backend/Dockerfile # Calea exactă către Dockerfile
+          context: ./backend
+          file: ./backend/Dockerfile # Calea exactă către Dockerfile
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/scapeflow-backend:latest
